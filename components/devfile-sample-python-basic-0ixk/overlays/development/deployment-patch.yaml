@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-python-basic-0ixk
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/nviduchi-tenant/devfile-sample-python-basic-2/devfile-sample-python-basic-0ixk@sha256:c557eb043ccdbcc1cd3315249ed01fb0159dfffae6468b2530e3f42788f7d38e
+        name: my-python
+        resources: {}
+status: {}
